@@ -36,3 +36,7 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# strapi
+apps/strapi/.tmp
+apps/strapi/.yarn
