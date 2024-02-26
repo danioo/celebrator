@@ -16,7 +16,6 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@3.6.1",
   "workspaces": [
     "apps/*",
     "packages/*"
