@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+  color: var(--mantine-color-black);
+
+  :hover {
+    background-color: var(--mantine-color-gray-0);
+  }
+}
+
+.linkActive {
+  :hover {
+    background-color: var(--mantine-color-gray-1);
+  }
+}
+
+.listItem {
+  padding: var(--mantine-spacing-xs);
+}
+
+.listItemActive {
+  background-color: var(--mantine-color-gray-1);
+}

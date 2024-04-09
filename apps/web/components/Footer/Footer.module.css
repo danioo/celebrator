@@ -1,0 +1,21 @@
+.footer {
+  margin-left: 300px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--mantine-spacing-lg);
+  padding-bottom: var(--mantine-spacing-md);
+
+  @media (max-width: var(--mantine-breakpoint-xs)) {
+    flex-direction: column;
+  }
+}
+
+.links {
+  @media (max-width: var(--mantine-breakpoint-xs)) {
+    margin-top: var(--mantine-spacing-md);
+  }
+}

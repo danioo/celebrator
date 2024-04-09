@@ -1,0 +1,23 @@
+.card {
+  background-color: var(--mantine-color-body);
+  height: 100%;
+}
+
+.cardWithHover {
+  @mixin hover {
+    box-shadow: var(--mantine-shadow-md);
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+}
+
+.footer {
+  border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+}
+
+.title {
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+  line-height: 1;
+}
